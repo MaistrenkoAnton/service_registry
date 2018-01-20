@@ -1,0 +1,50 @@
+[
+  {
+    "model": "services.Service",
+    "fields": {
+      "id": 1,
+      "type": "test",
+      "version": "0.0.1"
+    }
+  },
+  {
+    "model": "services.Service",
+    "fields": {
+      "id": 2,
+      "type": "test",
+      "version": "0.0.1"
+    }
+  },
+  {
+    "model": "services.Service",
+    "fields": {
+      "id": 3,
+      "type": "test",
+      "version": "0.0.2"
+    }
+  },
+  {
+    "model": "services.Service",
+    "fields": {
+      "id": 4,
+      "type": "test",
+      "version": "0.0.2"
+    }
+  },
+  {
+    "model": "services.Service",
+    "fields": {
+      "id": 5,
+      "type": "test2",
+      "version": "0.0.2"
+    }
+  },
+  {
+    "model": "services.Service",
+    "fields": {
+      "id": 6,
+      "type": "test2",
+      "version": "0.0.2"
+    }
+  }
+]

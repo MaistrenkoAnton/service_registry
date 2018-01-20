@@ -22,8 +22,6 @@ schema_view = get_swagger_view(title='Services')
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/$', schema_view),
-
     url(r'^services/', include('services.urls', namespace='services')),
-
+    url(r'', schema_view),
 ]

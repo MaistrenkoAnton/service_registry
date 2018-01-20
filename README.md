@@ -48,3 +48,14 @@ In summary have fun and trust me when I say it - being honest and true with
 everything, from what you know and what you do not know is most important part
 of doing good on this task. When you are done please open a pull request to
 this repo with your solution.
+
+## Run server
+
+create virtual environment
+
+pip install -r requirements.txt
+./manage.py runserver
+
+## Run behave tests 
+
+./manage.py behave
