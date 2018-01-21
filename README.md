@@ -51,19 +51,19 @@ this repo with your solution.
 
 ## Run server
 
-create virtual environment
-
-pip install -r requirements.txt
-./manage.py migrate
-./manage.py runserver
+ - virtualenv -p python3.6 venv
+ - source venv/bin/activate
+ - pip install -r requirements.txt
+ - ./manage.py migrate
+ - ./manage.py runserver
 
 
 ## Authentication via swagger:
 
-Register via registration endpoint `/accounts/registration/`
-Register via login endpoint `/accounts/registration/`
-Get the token from response
-Press the button Authorize and insert there `jwt {token}`
+ - Register via registration endpoint `/accounts/registration/`
+ - Register via login endpoint `/accounts/registration/`
+ - Get the token from response
+ - Press the button Authorize and insert there `jwt {token}`
 
 ## Run behave tests 
 
