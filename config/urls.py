@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from django.views.generic import RedirectView
 from django.views.generic import TemplateView
 from rest_framework_swagger.views import get_swagger_view
 
@@ -27,5 +28,6 @@ urlpatterns = [
     url(r'^account-confirm-email/(?P<key>[-:\w]+)/$', TemplateView.as_view(),
         name='account_confirm_email'),
     url(r'^services/', include('services.urls', namespace='services')),
-    url(r'', schema_view),
+    url(r'^api/', schema_view),
+    url(r'^$', RedirectView.as_view(url='api/')),
 ]

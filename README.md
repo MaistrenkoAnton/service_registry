@@ -68,3 +68,7 @@ Press the button Authorize and insert there `jwt {token}`
 ## Run behave tests 
 
 ./manage.py behave
+
+## Deployed
+
+https://services-registry.herokuapp.com/
